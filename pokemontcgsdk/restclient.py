@@ -9,9 +9,9 @@
 # Copyright (c) 2016, Andrew Backes <backes.andrew@gmail.com>
 
 import json
-from urllib.request import Request, urlopen
-from urllib.error import URLError, HTTPError
-from urllib.parse import urlencode
+from urllib2 import Request, urlopen
+from urllib2 import URLError, HTTPError
+from urllib import urlencode
 
 class RestClient(object):
     @staticmethod

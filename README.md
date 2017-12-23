@@ -9,7 +9,7 @@
 This is the Pokémon TCG SDK Python implementation. It is a wrapper around the Pokémon TCG API of [pokemontcg.io](http://pokemontcg.io/).
 
 ## Requirements
-Python 3 is currently the only supported version for the sdk. More specifically, the package was developed using Python 3.4.
+This version of the API has been ported to Python 2.
 
 ## Installation
 
