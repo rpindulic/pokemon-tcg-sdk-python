@@ -15,6 +15,7 @@ class Card(object):
     RESOURCE = 'cards'
 
     def __init__(self, response_dict={}):
+        self.properties = response_dict
         self.name = response_dict.get('name')
         self.id = response_dict.get('id')
         self.national_pokedex_number = response_dict.get('nationalPokedexNumber')
